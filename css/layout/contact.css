@@ -22,7 +22,12 @@
 }
 .robs__link{
     color: #058218;
+    border: 2px solid white;
+    padding: 10px;
+    margin-right: 10px;
 }
+.robs__buttons{
+        margin-top: 20px;
 .contact__gmail{
     font-style: 1rem;
     color: #058218;
