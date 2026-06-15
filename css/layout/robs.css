@@ -1,0 +1,75 @@
+.robs{
+    background: #1e1e1e;
+padding-top: 30px;
+}
+.robs__title{
+    color: #058218;
+    font-size: clamp(1.75rem,7vw,3rem);
+    text-align: center;
+}
+.robs__text{
+    color: #058218;
+    font-size: clamp(1.25rem,4vw,1.5rem);
+    text-align: center;
+    padding-top: 15px;
+}
+.robs__block{
+    display: flex;
+}
+.robs__box{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.robs__bos{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.robs__info{
+    color: #058218;
+    font-size: 1rem;
+}
+.robs__img{
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 50%;
+}
+.robs__button{
+    color: white;
+    background: #058218;
+    font-size: 1.25rem;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.robs__subtitle{
+    color: #058218;
+    margin-top: 50px;
+}
+
+@media screen and (min-width:744px) {
+    .box{
+        display: flex;
+        justify-content: center;
+    }
+    .robs__block{
+        display: flex;
+        flex-direction: row;
+    }
+    .robs__info{
+        margin-top: 50px;
+        color: #058218;
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .robs__box{
+      display: flex;
+      
+    }
+    .robs__text{
+        color: #1e1e1e;
+    }
+ }

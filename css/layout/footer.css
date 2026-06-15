@@ -1,0 +1,15 @@
+.footer{
+    background: #1e1e1e;
+}
+.logo__footer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+@media screen and (min-width:744px) {
+    .footer{
+        display: flex;
+       justify-content: center;
+    }
+}
