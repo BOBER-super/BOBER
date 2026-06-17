@@ -16,24 +16,14 @@ padding-top: 30px;
 .robs__block{
     display: flex;
 }
-.robs__box{
-    display: flex;
-    flex-direction: row;
-    
 
-}
-.robs__bos{
-    display: flex;
-    flex-direction: row-reverse;
-}
 .robs__info{
     color: #058218;
     font-size: 1rem;
 }
 .robs__img{
-    padding-top: 15px;
-    padding-left: 15px;
-    width: 50%;
+width: 100%;
+margin: 0 auto;
 }
 .robs__button{
     color: white;
@@ -47,6 +37,16 @@ padding-top: 30px;
 .robs__subtitle{
     color: #058218;
     margin-top: 50px;
+}
+.robs__link{
+    border: 5px white solid;
+    margin-top: 10px;
+  
+}
+.robs__buttons{
+      margin-top: 30px;
+          display: flex;
+    flex-direction: column;
 }
 
 @media screen and (min-width:744px) {
@@ -66,10 +66,31 @@ padding-top: 30px;
 }
 @media screen and (min-width: 1280px) {
     .robs__box{
-      display: flex;
+         display: flex;
+    flex-direction: row;
+      
+    }
+      .robs__bos{
+         display: flex;
+    flex-direction: row-reverse;
       
     }
     .robs__text{
         color: #1e1e1e;
+    }
+    .robs__buttons{
+        flex-direction: row;
+    }
+    .robs__link{
+        margin-right: 10px;
+    }
+    .robs__img{
+        width: 40%;
+    }
+    .box__box:nth-child(1){
+        margin-left: 10px;
+    }
+     .box__box:nth-child(2){
+        margin-right: 10px;
     }
  }
